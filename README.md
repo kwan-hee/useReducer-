@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+##  리듀서(Reducer)를 사용하여 부작용 처리 & 컨텍스트 API 사용하기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![2022-09-30_004634](https://user-images.githubusercontent.com/80756638/193078431-1fffbe74-fc1b-4594-975c-ba8d977e567e.jpg)
+                                                 ## before Login
 
-## Available Scripts
+![2022-09-30_004652](https://user-images.githubusercontent.com/80756638/193078526-bbee7fa8-6fb5-4756-9cb9-b798cdfacf0e.jpg)
+                                                  ## after Login
+                                                  
+## Skill
 
-In the project directory, you can run:
+### useEffect & 종속성
 
-### `npm start`
+### useEffect 에서 Cleanup 함수 사용하기
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+###  useReducer() 훅 사용
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### useReducer & useEffect
 
-### `npm test`
+###  중첩 속성을 useEffect 에 종속성으로 추가하기
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### State 관리를 위한 useReducer 와 useState
 
-### `npm run build`
+## React Context(Context API)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## useContext 훅으로 컨텍스트에 탭핑하기
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 컨텍스트 동적으로 만들기
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Forward Refs 사용
